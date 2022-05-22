@@ -1,0 +1,81 @@
+// func Authorize(next http.HandlerFunc) http.HandlerFunc {
+// 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+// 		cookie, err := r.Cookie("token-test")
+// 		if err != nil {
+// 			if err == http.ErrNoCookie {
+// 				w.WriteHeader(http.StatusUnauthorized)
+// 				fmt.Println("here3")
+// 				return
+// 			}
+// 			w.WriteHeader(http.StatusBadRequest)
+// 			return
+// 		}
+// 		tokenRecv := cookie.Value
+// 		//claims := &entities.Claims{}
+// 		tkn, err := jwt.ParseWithClaims(tokenRecv, &jwt.StandardClaims{},
+// 			func(t *jwt.Token) (interface{}, error) {
+// 				return services.Secretkey, nil
+// 			})
+// 		if err != nil {
+// 			fmt.Println("----------")
+// 			fmt.Println(err)
+// 			if err == jwt.ErrSignatureInvalid {
+// 				w.WriteHeader(http.StatusUnauthorized)
+// 				fmt.Println("here1")
+
+// 				return
+// 			}
+// 			w.WriteHeader(http.StatusBadRequest)
+// 			fmt.Println(err.Error())
+// 		}
+// 		if !tkn.Valid {
+// 			w.WriteHeader(http.StatusUnauthorized)
+// 			fmt.Println("here2")
+// 			return
+// 		}
+// 		// Do stuff
+// 		next(w, r)
+// 	})
+// }
+
+
+
+
+// expirationTime := time.Now().Add(5 * time.Minute)
+		// claims := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.StandardClaims{
+		// 	Issuer:    login.Email,
+		// })
+		// token, err := claims.SignedString([]byte(Secretkey))
+		// if err != nil {
+		// 	json.NewEncoder(w).Encode("cannot login")
+		// 	return
+		// }
+		// http.SetCookie(w,&http.Cookie{
+		// 	Name:"token",
+		// 	Value: token,
+
+		// 	HttpOnly: true,
+		// })
+
+
+        	// claims["client"] = "Krissanawat"
+	// claims["aud"] = "billing.jwtgo.io"
+	// claims["iss"] = "jwtgo.io"
+
+
+    //sqlStatement := `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE first_name LIKE %$1%`
+	// //sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY `
+	//rows, err := db.Query(sqlStatement,sear)
+	//rows, err := db.Query(fmt.Sprintf(SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE user_id LIKE %v,sear))search = fmt.Sprintf("%%%s%%", search)
+
+    //var sqlStatement string
+
+	//sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY CASE WHEN shorBy="user_id" THEN user_id END ASC, CASE WHEN shorBy="name" THEN first_name  END DESC`
+	//sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY shorby=$1  `
+	//rows, err := db.Query(sqlStatement,shorBy)
+
+    //var sqlStatement string
+
+	//sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY CASE WHEN shorBy="user_id" THEN user_id END ASC, CASE WHEN shorBy="name" THEN first_name  END DESC`
+	//sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY shorby=$1  `
+	//rows, err := db.Query(sqlStatement,shorBy)
