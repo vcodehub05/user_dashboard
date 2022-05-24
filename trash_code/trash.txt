@@ -79,3 +79,8 @@
 	//sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY CASE WHEN shorBy="user_id" THEN user_id END ASC, CASE WHEN shorBy="name" THEN first_name  END DESC`
 	//sqlStatement = `SELECT user_id,first_name,last_name,email,dob  FROM employe_log WHERE archived=false ORDER BY shorby=$1  `
 	//rows, err := db.Query(sqlStatement,shorBy)
+	//CREATE TABLE accounts (user_id serial PRIMARY KEY,first_name VARCHAR ( 50 ) NOT NULL,last_name VARCHAR ( 50 ) NOT NULL,email VARCHAR ( 255 ) NOT NULL,dob DATE NOT NULL ,password VARCHAR ( 500 ) NOT NULL,created_at TIMESTAMP NOT NULL,last_access_at TIMESTAMP, updated_at TIMESTAMP,archived BOOL);
+// func valid(email string) bool {
+// 	_, err := mail.ParseAddress(email)
+// 	return err == nil
+// }

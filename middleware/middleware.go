@@ -2,12 +2,11 @@ package middleware
 
 import (
 	"fmt"
-	"net/http"
-
 	"github.com/dgrijalva/jwt-go/v4"
+	"net/http"
 	"os"
+	"userdb/logger"
 )
-
 
 var MySigningKey = []byte(os.Getenv("SECRET_KEY"))
 
@@ -17,7 +16,7 @@ func Authorized(endpoint func(http.ResponseWriter, *http.Request)) http.HandlerF
 		if err != nil {
 			if err == http.ErrNoCookie {
 				w.WriteHeader(http.StatusUnauthorized)
-				
+				logger.ErrorLogger.Println(err)
 				return
 			}
 			w.WriteHeader(http.StatusBadRequest)
@@ -43,6 +42,7 @@ func Authorized(endpoint func(http.ResponseWriter, *http.Request)) http.HandlerF
 
 		} else {
 			fmt.Fprintf(w, "No Authorization Token provided")
+			logger.ErrorLogger.Println("No Authorization Token provided")
 
 		}
 	})

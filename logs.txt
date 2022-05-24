@@ -1,0 +1,254 @@
+INFO: 2022/05/23 11:50:21 services.go:46: db Successfully connected!
+ERROR: 2022/05/23 11:50:21 services.go:210: pq: relation "employe_log" does not exist
+ERROR: 2022/05/23 11:50:21 services.go:217: pq: relation "employe_log" does not exist
+INFO: 2022/05/23 11:50:21 services.go:223: user not found with the given email
+INFO: 2022/05/23 11:50:21 services.go:229: password is incorrect
+INFO: 2022/05/23 11:50:34 services.go:46: db Successfully connected!
+ERROR: 2022/05/23 11:50:34 services.go:263: Unable to execute the query. pq: relation "employe_log" does not exist
+INFO: 2022/05/23 11:51:36 services.go:46: db Successfully connected!
+INFO: 2022/05/23 11:51:36 services.go:266: User created , your user id is 1
+INFO: 2022/05/23 11:51:36 services.go:76: {1 user created Successfully}
+INFO: 2022/05/23 12:00:01 services.go:46: db Successfully connected!
+INFO: 2022/05/23 12:00:01 services.go:235: access granted
+INFO: 2022/05/23 12:00:19 services.go:46: db Successfully connected!
+INFO: 2022/05/23 12:02:18 services.go:46: db Successfully connected!
+INFO: 2022/05/23 12:02:18 services.go:235: access granted
+INFO: 2022/05/23 12:02:26 services.go:46: db Successfully connected!
+INFO: 2022/05/23 12:03:01 services.go:46: db Successfully connected!
+INFO: 2022/05/23 12:04:24 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:05:07 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:05:26 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:06:48 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:14:35 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:15:23 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:17:03 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:17:46 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:17:46 services.go:80: email already exist
+INFO: 2022/05/23 12:18:00 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:18:00 services.go:80: email already exist
+INFO: 2022/05/23 12:20:43 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:20:43 services.go:80: email already exist
+INFO: 2022/05/23 12:20:44 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:20:44 services.go:80: email already exist
+INFO: 2022/05/23 12:23:50 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:23:50 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:23:51 services.go:265: User created , your user id is 2
+INFO: 2022/05/23 12:23:51 services.go:75: {2 user created Successfully}
+INFO: 2022/05/23 12:23:59 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:23:59 services.go:80: email already exist
+INFO: 2022/05/23 12:24:29 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:24:29 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:24:29 services.go:265: User created , your user id is 3
+INFO: 2022/05/23 12:24:29 services.go:75: {3 user created Successfully}
+INFO: 2022/05/23 12:24:31 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:24:31 services.go:80: email already exist
+INFO: 2022/05/23 12:34:41 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:34:41 services.go:234: access granted
+INFO: 2022/05/23 12:34:52 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:35:06 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:36:17 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:36:17 services.go:234: access granted
+INFO: 2022/05/23 12:36:22 services.go:47: db Successfully connected!
+INFO: 2022/05/23 12:36:22 services.go:371: Total rows/record affected 
+INFO: 2022/05/23 12:36:22 services.go:169: {3 User deleted  successfully. }
+INFO: 2022/05/23 12:36:59 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:15:52 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:15:52 services.go:236: access granted
+INFO: 2022/05/23 13:15:59 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:17:38 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:17:38 services.go:236: access granted
+INFO: 2022/05/23 13:17:43 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:17:53 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:18:55 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:18:55 services.go:236: access granted
+INFO: 2022/05/23 13:18:59 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 13:18:59 services.go:328: Unable to execute the query. pq: syntax error at or near "%"
+INFO: 2022/05/23 13:24:24 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:24:24 services.go:236: access granted
+INFO: 2022/05/23 13:24:30 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 13:24:30 services.go:328: Unable to execute the query. pq: syntax error at or near "%"
+INFO: 2022/05/23 13:26:32 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:26:32 services.go:236: access granted
+INFO: 2022/05/23 13:26:39 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 13:26:39 services.go:328: Unable to execute the query. pq: syntax error at or near "%"
+INFO: 2022/05/23 13:27:23 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:27:40 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:27:40 services.go:236: access granted
+INFO: 2022/05/23 13:27:44 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:27:50 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:27:54 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:28:05 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:28:05 services.go:80: email already exist
+INFO: 2022/05/23 13:28:28 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:28:28 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:28:28 services.go:267: User created , your user id is 4
+INFO: 2022/05/23 13:28:28 services.go:75: {4 user created Successfully}
+INFO: 2022/05/23 13:37:18 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:37:18 services.go:80: email already exist
+INFO: 2022/05/23 13:37:28 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:37:28 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:37:28 services.go:267: User created , your user id is 5
+INFO: 2022/05/23 13:37:28 services.go:75: {5 user created Successfully}
+INFO: 2022/05/23 13:38:43 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:38:43 services.go:236: access granted
+INFO: 2022/05/23 13:38:47 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:41:10 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:41:10 services.go:236: access granted
+INFO: 2022/05/23 13:41:14 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:41:32 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:41:46 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:46:35 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:46:35 services.go:235: access granted
+INFO: 2022/05/23 13:46:45 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:47:25 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:47:31 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:47:31 services.go:235: access granted
+INFO: 2022/05/23 13:47:35 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:47:44 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:48:02 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:48:30 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:48:43 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:48:43 services.go:235: access granted
+INFO: 2022/05/23 13:48:47 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:53:06 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:53:06 services.go:223: user not found with the given email
+INFO: 2022/05/23 13:53:06 services.go:235: access granted
+INFO: 2022/05/23 13:53:57 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:53:57 services.go:235: access granted
+INFO: 2022/05/23 13:54:03 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:54:12 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:54:22 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:54:38 services.go:47: db Successfully connected!
+INFO: 2022/05/23 13:54:46 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:02:47 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:02:47 services.go:80: email already exist
+INFO: 2022/05/23 14:03:01 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:03:01 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:03:01 services.go:265: User created , your user id is 6
+INFO: 2022/05/23 14:03:01 services.go:75: {6 user created Successfully}
+INFO: 2022/05/23 14:03:20 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:03:20 services.go:80: email already exist
+INFO: 2022/05/23 14:03:50 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:03:50 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:03:50 services.go:265: User created , your user id is 7
+INFO: 2022/05/23 14:03:50 services.go:75: {7 user created Successfully}
+INFO: 2022/05/23 14:06:49 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:06:49 services.go:235: access granted
+INFO: 2022/05/23 14:06:57 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:07:15 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:07:21 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:07:37 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:08:43 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:08:43 services.go:235: access granted
+INFO: 2022/05/23 14:08:47 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:08:47 services.go:383: Total rows/record affected 
+INFO: 2022/05/23 14:08:47 services.go:170: {1 User deleted  successfully. }
+INFO: 2022/05/23 14:09:36 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:09:36 services.go:383: Total rows/record affected 
+INFO: 2022/05/23 14:09:36 services.go:170: {1 User deleted  successfully. }
+INFO: 2022/05/23 14:10:18 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:10:18 services.go:235: access granted
+INFO: 2022/05/23 14:10:22 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:10:36 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:10:46 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:11:24 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:11:24 services.go:235: access granted
+INFO: 2022/05/23 14:12:10 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:12:33 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:12:33 services.go:235: access granted
+INFO: 2022/05/23 14:12:40 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:13:38 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:13:38 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:13:38 services.go:265: User created , your user id is 8
+INFO: 2022/05/23 14:13:38 services.go:75: {8 user created Successfully}
+INFO: 2022/05/23 14:13:58 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:13:58 services.go:80: email already exist
+INFO: 2022/05/23 14:14:05 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:14:05 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:14:05 services.go:265: User created , your user id is 9
+INFO: 2022/05/23 14:14:05 services.go:75: {9 user created Successfully}
+INFO: 2022/05/23 14:15:54 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:15:54 services.go:235: access granted
+INFO: 2022/05/23 14:16:07 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:16:07 services.go:229: password is incorrect
+INFO: 2022/05/23 14:18:06 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:18:06 services.go:229: password is incorrect
+INFO: 2022/05/23 14:19:09 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:19:09 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:19:09 services.go:265: User created , your user id is 10
+INFO: 2022/05/23 14:19:09 services.go:75: {10 user created Successfully}
+INFO: 2022/05/23 14:19:45 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:19:45 services.go:235: access granted
+INFO: 2022/05/23 14:20:57 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:20:57 services.go:235: access granted
+INFO: 2022/05/23 14:21:03 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:21:03 services.go:362: Total rows/record affected 1
+INFO: 2022/05/23 14:21:03 services.go:144: {10 user updated successfully. Total rows/record affected }
+INFO: 2022/05/23 14:21:36 services.go:47: db Successfully connected!
+INFO: 2022/05/23 14:21:36 services.go:362: Total rows/record affected 1
+INFO: 2022/05/23 14:21:36 services.go:144: {10 user updated successfully. Total rows/record affected }
+INFO: 2022/05/23 16:01:04 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 16:01:04 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 16:01:04 services.go:223: user not found with the given email
+INFO: 2022/05/23 16:01:04 services.go:229: password is incorrect
+INFO: 2022/05/23 16:01:14 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 16:01:14 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 16:01:14 services.go:223: user not found with the given email
+INFO: 2022/05/23 16:01:14 services.go:229: password is incorrect
+INFO: 2022/05/23 16:01:17 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 16:01:17 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 16:01:17 services.go:223: user not found with the given email
+INFO: 2022/05/23 16:01:17 services.go:229: password is incorrect
+INFO: 2022/05/23 16:39:31 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:39:31 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:39:31 services.go:265: User created , your user id is 11
+INFO: 2022/05/23 16:39:31 services.go:75: {11 user created Successfully}
+INFO: 2022/05/23 16:40:19 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:40:19 services.go:235: access granted
+INFO: 2022/05/23 16:40:34 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:40:40 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:40:43 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:02 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:04 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:05 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:06 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:09 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:15 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:16 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:17 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:17 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:18 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:32 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:32 services.go:229: password is incorrect
+INFO: 2022/05/23 16:41:52 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:41:52 services.go:235: access granted
+INFO: 2022/05/23 16:41:59 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 16:41:59 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 16:41:59 services.go:223: user not found with the given email
+INFO: 2022/05/23 16:41:59 services.go:229: password is incorrect
+INFO: 2022/05/23 16:47:58 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:47:58 services.go:80: passwor should be minimum 8 characters and maximum 20 characters
+INFO: 2022/05/23 16:48:12 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:48:12 services.go:47: db Successfully connected!
+INFO: 2022/05/23 16:48:12 services.go:265: User created , your user id is 12
+INFO: 2022/05/23 16:48:12 services.go:75: {12 user created Successfully}
+INFO: 2022/05/23 17:04:15 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 17:04:15 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 17:04:15 services.go:223: user not found with the given email
+INFO: 2022/05/23 17:04:15 services.go:229: password is incorrect
+INFO: 2022/05/23 17:04:28 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 17:04:28 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 17:04:28 services.go:223: user not found with the given email
+INFO: 2022/05/23 17:04:28 services.go:229: password is incorrect
+INFO: 2022/05/23 17:06:42 services.go:47: db Successfully connected!
+INFO: 2022/05/23 17:06:42 services.go:80: email already exist
+INFO: 2022/05/23 17:07:10 services.go:47: db Successfully connected!
+INFO: 2022/05/23 17:07:10 services.go:80: passwor should be minimum 8 characters and maximum 20 characters
+INFO: 2022/05/23 17:07:25 services.go:47: db Successfully connected!
+INFO: 2022/05/23 17:07:25 services.go:47: db Successfully connected!
+INFO: 2022/05/23 17:07:25 services.go:265: User created , your user id is 13
+INFO: 2022/05/23 17:07:25 services.go:75: {13 user created Successfully}
+INFO: 2022/05/23 17:09:08 services.go:47: db Successfully connected!
+ERROR: 2022/05/23 17:09:08 services.go:217: sql: no rows in result set
+INFO: 2022/05/23 17:09:08 services.go:223: user not found with the given email
+INFO: 2022/05/23 17:09:08 services.go:229: password is incorrect
